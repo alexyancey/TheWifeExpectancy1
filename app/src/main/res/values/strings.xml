@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">TheWifeExpectancyv0.1</string>
+    <string name="twe">twe</string>
+    <string name="myEntries">My Entries</string>
+    <string name="mySpecs">My Specs</string>
 </resources>

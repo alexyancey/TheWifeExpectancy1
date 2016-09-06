@@ -18,19 +18,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="twe"
+        android:text="@string/twe"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textSize="36dp"
+        android:textSize="36sp"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="My Entries"
+        android:text="@string/myEntries"
         android:id="@+id/myEntriesTv"
         android:layout_marginTop="83dp"
         android:textColor="#000000"
@@ -43,7 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="My Specs"
+        android:text="@string/mySpecs"
         android:id="@+id/mySpecsTv"
         android:layout_alignBottom="@+id/myEntriesTv"
         android:layout_alignParentRight="true"
@@ -52,5 +52,14 @@
         android:layout_marginEnd="47dp"
         android:textColor="#000000"
         android:clickable="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New CheckBox"
+        android:id="@+id/checkBox"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/myEntriesTv"
+        android:layout_toEndOf="@+id/myEntriesTv" />
 
 </RelativeLayout>
