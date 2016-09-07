@@ -3,4 +3,9 @@
     <string name="twe">twe</string>
     <string name="myEntries">My Entries</string>
     <string name="mySpecs">My Specs</string>
+    <string name="twe_header">twe</string>
+    <string name="my_tb_title">Girl Profiles</string>
+    <string name="how_to_use">How to Use</string>
+    <string name="test_preferences">Test Preferences</string>
+    <string name="description">Description:</string>
 </resources>

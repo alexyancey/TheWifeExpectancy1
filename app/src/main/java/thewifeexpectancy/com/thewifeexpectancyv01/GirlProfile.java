@@ -3,7 +3,7 @@ package thewifeexpectancy.com.thewifeexpectancyv01;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Entries extends AppCompatActivity {
+public class GirlProfile extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
